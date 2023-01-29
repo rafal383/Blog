@@ -1,0 +1,77 @@
+body{
+    background-color: lightgray;
+}
+img {
+    position:fixed;
+    border-bottom: 15px groove black;
+}
+header {
+    background-color: blue;
+    margin-left: 840px;
+    margin-top: 50px;
+    border: 2px dotted black;
+    width:250px;
+    text-align: center;
+    position:fixed;
+}
+.sect {
+    position:fixed;
+    border: 5px solid black;
+    margin-top: 315px;
+    text-align:top;
+    padding: 25px;
+    left: 30px;
+}
+.grry1 {
+    position:relative;
+    top: 323px;
+    left: 1006px;
+    border: 5px solid black;
+    text-align: center;
+    padding: 0px 0px ;
+    position:fixed;
+    
+}
+.grry2 {
+    position:relative;
+    top: 529px;
+    left: 1006px;
+    border: 5px solid black;
+    text-align: center;
+    padding: 0px 0px ;
+    position:fixed;
+}
+.grry3 {
+    position:relative;
+    top: 733px;
+    left: 1006px;
+    border: 5px solid black;
+    text-align: center;
+    padding: 0px 0px ;
+    position:fixed;
+}
+.sect, .grry1, .grry2, .grry3 {
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    text-align: center;
+    position: relative;
+    float: right;
+    top: 440px;
+    right: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    border: 5px dashed black;
+    padding-right: 30px;
+    padding-left: 1px;
+    
+}
+
+ul {
+    list-style: none;
+    color: gray;
+}
+.li1:hover, .li2:hover, .li3:hover, .li4:hover, .li5:hover {
+    color: red;
+}
